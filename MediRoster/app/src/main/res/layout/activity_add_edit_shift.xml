@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/shift_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Shift Date"
+            android:focusable="false"
+            android:clickable="true" />
+
+        <Button
+            android:id="@+id/add_shift_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Shift"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/shift_list_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp" />
+
+
+        <Button
+            android:id="@+id/delete_shift_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Selected Shift"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>

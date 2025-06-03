@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MediRoster</string>
+    <string name="username" />
+    <string name="password2" />
+    <string name="bg" />
+    <string name="roster" />
+    <string name="medi" />
+    <string name="login" />
+    <string name="MediRoster" />
+    <string name="operation_prompt">Select Operation</string>
+
+</resources>
