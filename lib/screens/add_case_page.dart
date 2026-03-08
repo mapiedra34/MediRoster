@@ -153,7 +153,7 @@ class _AddCasePageState extends State<AddCasePage> {
                   labelText: 'Operation',
                   prefixIcon: Icon(Icons.medical_services),
                 ),
-                value: _selectedOperation,
+                initialValue: _selectedOperation,
                 items: _operations.map((operation) {
                   return DropdownMenuItem(
                     value: operation,
@@ -202,7 +202,7 @@ class _AddCasePageState extends State<AddCasePage> {
                       labelText: 'Shift',
                       prefixIcon: Icon(Icons.schedule),
                     ),
-                    value: _selectedShiftId,
+                    initialValue: _selectedShiftId,
                     items: shifts.map((shift) {
                       return DropdownMenuItem(
                         value: shift.shiftId,

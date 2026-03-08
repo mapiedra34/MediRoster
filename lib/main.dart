@@ -69,7 +69,7 @@ class MediRosterApp extends StatelessWidget {
               borderSide: const BorderSide(color: Color(0xFF018786), width: 2),
             ),
           ),
-          cardTheme: CardTheme(
+          cardTheme: CardThemeData(
             elevation: 2,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(8),
